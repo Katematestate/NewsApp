@@ -1,6 +1,6 @@
 # NewsApp
 
-This template should help get you started developing with Vue 3 in Vite.
+A student project around working with Vue 3 and third party API's.
 
 ## Recommended IDE Setup
 
