@@ -8,6 +8,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "primevue": "^3.23.0",
+    "sass": "^1.58.3",
     "vue": "^3.2.45"
   },
   "devDependencies": {

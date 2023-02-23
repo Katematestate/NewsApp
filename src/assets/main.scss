@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Cutive&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap");
+
+@import 'primevue/resources/themes/saga-blue/theme.css';
+@import 'primevue/resources/primevue.min.css';
+@import 'primeicons/primeicons.css';
+
+body {
+  --text-color: black;
+  --brand-color: #FFD600;
+  margin: 0;
+}
+
+@for $size from 1 through 6 {
+  h#{$size} {
+    font-size: 1.5rem - (($size - 1) * 0.25);
+    font-family: "Cutive", serif;
+  }
+}
+
+a {
+  font-family: "Cutive Mono", monospace;
+  color: var(--text-color);
+  font-weight: 700;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.p-button:focus{
+    box-shadow: 0 0 0 0.2rem var(--brand-color);
+}
+
+.p-dialog .p-dialog-header, .p-dialog .p-dialog-content{
+    background-color: var(--brand-color);
+}

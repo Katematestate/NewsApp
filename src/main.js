@@ -1,6 +1,13 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from "vue";
+import App from "./App.vue";
 
-import './assets/main.css'
+import "./assets/main.scss";
 
-createApp(App).mount('#app')
+import PrimeVue from 'primevue/config';
+import DialogService from 'primevue/dialogservice';
+
+const app = createApp(App);
+
+app.use(PrimeVue);
+app.use(DialogService);
+app.mount("#app")
