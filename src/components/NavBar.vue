@@ -42,7 +42,7 @@ margin-top: 16px;
     $size: 82px;
     height: $size;
     width: $size;
-    padding: 4px;
+    padding: 6px;
     position: relative;
     z-index: 2;
 }
